@@ -1,0 +1,68 @@
+html
+
+{
+    background-color: rgb(142, 150, 182) ; 
+    margin: auto;}
+
+nav
+{
+    background-color: rgb(226, 229, 250);margin-left: ;
+    border: 5px solid;margin-bottom: 5px;outline: dashed;outline-offset: 2px;border-radius: 10px;text-align: center;
+}
+
+section
+{
+    background-color: rgb(162, 167, 196);
+    margin: 25px;border: 5px solid;border-radius: 25%;
+}
+
+img
+{
+    width: 400px;height: auto;
+
+}
+
+table,td,th
+{
+    border: 1px solid;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+h1{text-align: center;}
+div{text-align: center;}
+video
+/*
+
+border:
+<width> <style> <color>
+
+border-width
+border-style: dotted, dashed, solid, double, groove, ridge, inset, outset
+bordr-color
+
+border-top
+
+border-image:<source> <slice> <width>  <outset> <repeat>
+
+border-radius
+border-top-left-radius
+border-top-right-radius
+border-bottom-left-radius
+border-bottom-right-radius
+
+outline:none
+outline-widht:
+outline-style:
+outline-color:
+
+outline offset:
+
+border-collapse
+collapse
+separate
+
+voir border-image.com pour crée un modele
+
+*/

@@ -1,0 +1,21 @@
+body{
+    background-color: azure;
+    margin: auto;
+    width: 1000px;
+}
+
+li
+{
+    /*list-style-image:url(images/apple-touch-icon.png);*/list-style-position: inside;list-style-type: circle;list-style: inside url(images/apple-touch-icon.png)
+
+}
+/* l'ideal est une image svg !!!!!
+
+list-style-position:
+outside ou inside
+
+en 1 ligne
+list-style: inside url(images/apple-touch-icon.png)
+
+
+*/

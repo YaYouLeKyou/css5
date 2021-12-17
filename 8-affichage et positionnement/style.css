@@ -1,0 +1,55 @@
+p
+{display: none;}
+
+span
+{border: 1px solid;}
+
+img
+{opacity: 0.5;}
+
+img:hover
+{opacity: 1;}
+
+div
+{width: 200px;height: 200px}
+
+.first
+{background-color:blue ;position: absolute; top 600px;
+
+}
+
+
+.second
+{background-color: green;position: relative;left: 200px;top: 50px;float: right;
+
+}
+
+
+.third
+{background-color: greenyellow;position: fixed;bottom: 50px;
+
+}
+
+.fleft
+{float: left;}
+
+
+/* 
+display
+none
+block
+inline
+inline-block
+
+visibility
+hidden ( masquer laisse emplacement blanc alors que display le supprime )
+collapse ( affichage cellule tableau )
+
+
+opacity
+valeur entre o et 1
+
+position
+top,right,bottom,left
+
+empilement: les div se supperpose dans l' ordre, le premier sera au fond, le dernier au dessus... sinon utiliser z-index, le plus proche de zero sera au fond...

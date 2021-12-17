@@ -1,0 +1,106 @@
+/* 
+container
+
+jouer sur l' axe vertical y
+
+display
+flex
+inline-flex
+
+flex-direction
+row
+column
+row-reverse
+column reverse
+
+flex-wrap
+nowrap
+wrap
+wrap-reverse
+
+flex-flow:<direction> <wrap>
+
+jouer sur l' axe horizontal, axe principale x
+
+justify-content:flex-start  ou  flex-end  ou  center puis space-between  ou space-around ou space-evenly   
+
+align-items: ( !!!! s' utilise sur le container )
+stretch ( occupe tout l' éspace )
+start ( affiche le contenu a partir du début en haut a gauche )
+end
+flex-start
+baseline ( utile avec des tailles de blocs différent pour les alligner )
+
+**************************************************************************************************************
+cont-item
+
+order ( chiffre chronologique )
+
+flex-grow ( se dimansionner par rapport au autres élément avec l' éspace restant en grandissant )
+prend l' éspace exemple sur 100% 1+1+1 = 1/3 ou 1+2+1 = 2 est 2xplus grand po 4= 4xplus grand...
+
+flex-shrink ( se dimansionner par rapport au autres élément avec l' éspace restant en retressissant )
+
+flex-basis
+donner une taille en px par exemple ou "auto"
+
+flex
+auto
+
+align-self:
+flex-start
+flex-end
+center
+baseline
+stretch
+
+*/
+
+body
+{background-color: aliceblue;
+margin: auto;
+width: 100%;
+}
+
+.container
+{
+background-color: blue;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+height: 200px;
+align-items: stretch;
+
+
+}
+
+.cont-item
+{
+    background-color: brown;border: solid 2px black;
+
+
+}
+
+.order1
+{
+    order: 1;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+.order2
+{
+    order: 3;
+    flex-grow: 2;
+    align-self: flex-end;
+}
+.order3
+{
+    order: 2;
+    flex-shrink: 1;
+    align-self: center;
+}
+
+.prioriry 
+{order: 1;}
+

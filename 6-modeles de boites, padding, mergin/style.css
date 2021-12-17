@@ -1,0 +1,54 @@
+html
+{
+    background-color: rgb(10, 2, 29);background-image: url(img/Thailand_Travel.jpg);background-attachment: scroll;background-origin: content-box; background-size: cover;
+
+    text-align: center;
+}
+
+body
+{
+    background-color: rgb(229, 230, 238);width: 900px;padding-top: 25px;padding-right: 25px;padding-bottom: 25px;padding-left: 25px;margin: 0px 25px 0px 220px;margin: 0px 200px 0px 200px;
+    
+}
+
+div
+{
+    background-color: rgb(111, 106, 143);max-width:800px;height: 10%;padding: 0px 100px 0px 200px ;
+}
+
+p
+{
+    background-color: rgb(60, 30, 99);
+    overflow-wrap: break-word ;
+}
+
+
+
+/* width- height- avec min max
+utile integration!
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+1 ligne
+padding 25px 50px 25px 50px
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+overflow
+auto
+hidden ( masquer )
+scroll
+
+overflow-x
+overflow-y
+
+!!!! integrer le overflow-wrap:breakword dans les boites de dialogue utilisateur
+overflow-wrap:
+break-word
+*/

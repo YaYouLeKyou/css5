@@ -1,0 +1,75 @@
+body
+{background-color: rgb(227, 234, 240);}
+
+.container
+{
+    display: grid;
+    grid-template-columns: auto minmax(150px, 300px);
+    grid-template-areas:"entete entete"
+                        "principal barre" 
+                        "pied pied";
+}
+
+header
+{
+    grid-area:entete;
+    background-color: rgb(99, 153, 153);
+}
+
+section
+{
+    grid-area:principal;
+    background-color: azure;
+}
+
+aside
+{   grid-area:barre;
+    background-color: beige;
+}
+
+footer
+{
+    grid-area:pied;
+    background-color: bisque;
+}
+
+section, aside
+{padding: 20px;}
+
+
+@media all and (max-width:600px)
+{
+    body
+    {
+        background-color: rgb(19, 19, 20);
+    }
+    
+   .container
+   {
+    grid-template-columns: 1fr;
+    grid-template-areas: "entete""barre""principal""pied";
+}
+}   
+
+@media all and (max-width:568px)
+{}
+@media all and (max-width:768px)
+{}
+@media all and (max-width:992px)
+{}
+@media all and (max-width:1024px)
+{}
+@media all and (max-width:1280px)
+{}
+/*
+media
+all ( tous type appareil )
+screen
+speach ( synthese vocal )
+print ( apperçu avant impression )
+
+not
+only
+and
+
+--/

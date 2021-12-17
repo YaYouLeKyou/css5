@@ -1,0 +1,23 @@
+body
+{background-color: honeydew;margin: auto;width: 800px;}
+
+div{border: 1px solid black;
+box-shadow: 0 0 3px;
+margin-top: 50px;
+padding: 5px;
+}
+#wrapper, #bloc1, #block2
+{width: 100%;}
+#wrapper
+{
+border: 2px solid black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;background-color: grey; margin: 10px;
+}
+
+#bloc1
+{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;border: solid 10px black; background-color: blue;}
+
+#bloc2
+{font-family: fantasy;border: solid 5px black;padding: 15px; background-color: cadetblue;border: dashed red 10px;}
+
+.a
+{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: cyan;}
